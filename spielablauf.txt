@@ -1,0 +1,18 @@
+hier steht die idee des ablaufs drin.
+
+erst werden die ganzen objekte initialisiert.
+
+dann werden die karten ausgeteilt.
+danach wied eine karte auf den ablagestapel gelegt
+
+und der erste spieler ist am zug.
+
+er kann eine seiner karten auswählen 
+diese wird dann auf den ablagestapel obendrauf gelegt
+wenn er nicht legen kann, muss er eine karte ziehen
+
+danach ist der nächste spieler dran.
+
+er kann wieder eine seiner karten auswählen.
+
+wenn der nachziehstapel leer ist, wird der ablagestapel gemischt

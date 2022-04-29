@@ -1,0 +1,59 @@
+// ich kann dynamisch ein div mit talbe und unterschiedlichen td füllen
+// Ich muss nur noch beim start des Spiels die diese funktion sinnvoll aufrufen
+// Ich muss noch die funktion hinkriegen, dass beim clicken auf dynamisch erzeugte tds auch die karten-ablege-funktion ausgeführt wird
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">     
+    <title>Taschenrechner</title>
+
+    <style>
+
+    </style>
+    <script src="script.js"></script> 
+</head>
+<body>
+    <div id="ablagestapel">
+          Ablagestabel  
+    </div>
+
+
+
+    <button id="button_start_spiel" type="button" onclick="display_spieler_karten()">Starte Spiel</button>
+
+    <div id="akt_spieler"> Aktueller Spieler </div>
+    
+    <div id="akt_spieler_karten" onclick="display_spieler_karten()">
+        Aktuelle Karten
+    </div>
+
+    <table>
+        <tr>
+            <td id="karte1" onclick="karte_ablegen(event)"></td>
+            <td id="karte2" onclick="karte_ablegen(event)"></td>
+            <td id="karte3" onclick="karte_ablegen(event)"></td>
+            <td id="karte4" onclick="karte_ablegen(event)"></td>
+            <td id="karte5" onclick="karte_ablegen(event)"></td>
+            <td id="karte6" onclick="karte_ablegen(event)"></td>
+            <td id="karte7" onclick="karte_ablegen(event)"></td>
+            <td id="karte8" onclick="karte_ablegen(event)"></td>
+            <td id="karte9" onclick="karte_ablegen(event)"></td>
+
+        </tr>
+    </table>
+
+
+</body>
+</html>
